@@ -2,6 +2,7 @@ pipeline {
     agent any
     tools {
         nodejs 'Node-7.8.0'   
+    }
     environment {
         // Lógica condicional según la rama
         PORT       = "${env.BRANCH_NAME == 'main' ? '3000' : '3001'}"
