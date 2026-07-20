@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'Node-7.8.0'   
+        nodejs 'Nodejs'   
     }
     environment {
         // Lógica condicional según la rama
